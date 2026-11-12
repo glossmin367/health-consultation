@@ -1,0 +1,64 @@
+/* Custom styles for Online Health Consultation Form */
+
+/* Card styling - slightly rounded with soft shadow */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Primary button hover effect */
+.btn-primary:hover {
+    background-color: #0d6efd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Form label animation */
+.form-label {
+    color: #495057;
+    font-weight: 500;
+}
+
+/* Focus state for inputs */
+.form-control:focus,
+.form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Custom checkbox styling */
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Alert customization */
+.alert-warning {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Table styling on admin page */
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+/* Hover row effect */
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}

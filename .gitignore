@@ -1,0 +1,18 @@
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Log files
+*.log
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Note: config/db.php uses the default XAMPP settings (root / empty password)
+# and contains no real secrets, so it is safe to commit for this course project.
+# The database SQL file is a deliverable and is also committed.
